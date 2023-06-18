@@ -21,6 +21,6 @@ class TxtSubscriptionDataPersister implements SubscriptionDataPersisterInterface
             return false;
         }
 
-        return (bool) $this->fileWriter->appendTo('emails.txt', $email.       ',');
+        return (bool) $this->fileWriter->appendTo('emails.txt', $email.',');
     }
 }
